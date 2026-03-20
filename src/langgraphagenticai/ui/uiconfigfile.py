@@ -1,6 +1,6 @@
 from configparser import ConfigParser
 
-
+# This allows user to easily change the options for the LLM, use case, and GROQ model without having to modify the code.
 class Config:
     def __init__(self,config_file="./src/langgraphagenticai/ui/uiconfigfile.ini"):
         self.config=ConfigParser()
